@@ -1,0 +1,53 @@
+h1{
+    color: red;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient( to left, black, green);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.calculadora {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pantalla {
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    padding: 10px;
+    font-size: 1.5em;
+    background: blue;
+    border:lab(from red)
+    border-radius: 90px;
+    margin-bottom: 60px;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 10px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: red;
+    cursor: pointer;
+}
+
+
+.operador {
+    background: white;
+}
